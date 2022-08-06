@@ -8,9 +8,24 @@
     width: 87.5%;
     max-width: calc(17.5rem + 4rem);
 }
+
+.grid-section{
+    display: grid;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 25rem; /* 400px */
+    margin-inline: auto;
+}
+
+
 .center-x{
     left: 50%;
     transform: translateX(-50%);
+}
+@media screen and (min-width: 360px){
+    .grid-section{
+        width: calc(100% - 2rem);        
+    } 
 }
 
 @media screen and (min-width: 734px){
@@ -18,12 +33,14 @@
         width: 100%;
         max-width: 43.25rem;
     }
-
+    .grid-section{
+        max-width: 87.5rem;
+    }
 }
 @media screen and (min-width: 1024px){
     .container{
         max-width: 61.25rem;
-    }
+    }    
 
 }
 
