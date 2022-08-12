@@ -16,12 +16,11 @@
     max-width: 25rem; /* 400px */
     margin-inline: auto;
 }
-
-
 .center-x{
     left: 50%;
     transform: translateX(-50%);
 }
+
 @media screen and (min-width: 360px){
     .grid-section{
         width: calc(100% - 2rem);        

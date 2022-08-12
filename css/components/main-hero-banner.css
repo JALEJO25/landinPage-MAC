@@ -22,11 +22,16 @@
     animation: fade-in-hero 1.5s ease-in-out forwards;
 }
 /* hero-image */
+.main-hero-banner{
+    overflow: hidden;  
+
+}
 .hero-image{
     position: relative;
     width: 46rem;
-    height: 27rem;
+    height: 27rem;      
 }
+
 .hero-image .picture{
     position: absolute;
     width: 100%;
@@ -47,24 +52,25 @@
     font-size: var(--bigger-body-size);
     font-weight: var(--medium-font);
     letter-spacing: 0.0005em;
-    line-height: 1.5;
+    line-height: 1.25;
 }
 
-.main-hero-banner .product-title{
+.main-hero-banner .product-title{   
     font-size: var(--bigger-body-size);
     margin-bottom: 0.5rem;
+
     animation-delay: 0.5s;
 }
 .main-hero-banner .hero-title{
     padding-bottom: 1.25rem;
     font-size: 3rem;
     line-height: 1.05;
-    letter-spacing:0.015em ;
+    letter-spacing:-0.015em ;
     font-weight: var(--bold-font);
 
     /* degradado del texto de fondo */
     background-image: radial-gradient(#eff1ff, #000 80%);
-    -webkit-background-clip:text ;
+    -webkit-background-clip: text ;
     -webkit-text-fill-color: transparent;
     background-position: 50% 75%;
     background-size: 150% 200%;
@@ -73,13 +79,12 @@
 }
 
 .main-hero-banner .description{
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     animation-delay: 0.9s;
 }
 .main-hero-banner :is(.subtitle, .hero-cta-container){
     font-size: 1.25rem;
 }
-
 .main-hero-banner .subtitle{
     display: flex;
     flex-direction: column;

@@ -17,7 +17,6 @@
     font-weight: var(--semi-bold-font);
     font-size: var(--normal-body-size);
     text-decoration: none;
-
 }
 .main-menu{
     list-style: none;
@@ -42,7 +41,7 @@
     }
     .main-menu{
         display: flex;
-    font-size: var(--smaller-body-size);
+        font-size: var(--smaller-body-size);
 
     }
     .menu-button{

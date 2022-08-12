@@ -1,3 +1,6 @@
+.chip-section{
+    overflow: hidden;
+}
 .chip-section .logo{
     height: 3rem;
     margin-bottom: 0.25rem;
@@ -5,7 +8,7 @@
 .chip-section .video-container{
     position: relative;
     margin-top: -2rem;
-    height: 25rem;
+    height: 35rem;
     z-index: var(--z-negative);
 }
 .chip-section .video{

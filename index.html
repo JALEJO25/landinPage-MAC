@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js" type="module"></script>
-</head>
-<body>
-    <header id="main-header" class="main-header place-center">
-        <nav class="nav container">
-            <a href="#description" class="title">Mac mini</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landinpage MAC</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header id="main-header" class="main-header place-center">
+            <nav class="nav container">
+                <a href="#description" class="title">Mac mini</a>
             <div class="right place-center">
                 <ul id="main-menu" class="main-menu">
                     <li class="item">
@@ -29,19 +28,18 @@
             </div> 
         </nav>
     </header>
-    <div class="main-overlay" id="main-overlay"></div>
+    <!-- <div class="main-overlay" id="main-overlay"></div> -->
     
     <main class="main">
         <!-- BANNER PRINCIPALD DEL SITIO -->
         <section id="description" class="main-hero-banner">
             <div class="hero-image center-x">
-                <img class="picture center-x" src="media/img/hero-image.jpg" alt="Portada de la pagina">
-                <img class="picture center-x dark" src="media/img/hero-image-dark.jpg" alt="Portada de la pagina">
-
+                <img src="media/img/hero-image.jpg" alt="PortadaImg" class="picture center-x">
+                <img class="picture dark center-x" src="media/img/hero-image-dark.jpg" alt="Portada de la pagina"> 
             </div>
             <div class="container">
                 <h1 class="product-title">Mac mini</h1>
-                <h2 class="hero-title">Cada vez más grande por dentro.</h2>
+                <h2 class="hero-title">Cada vez más <br/> grande por dentro.</h2>
                 <p class="description">
                     El chip M1 diseñado por Apple lleva nuestra computadora de escritorio más versátil a otra dimensión. Viene con un CPU hasta 3 veces más rápido, gráficos hasta 6 veces más veloces y un avanzado Neural Engine, que permite un aprendizaje automático hasta 15 veces más rápido. Podrás trabajar, jugar y crear con una velocidad y potencia que jamás habías imaginado. La Mac mini es poder para conquistarlo todo.
                 </p>
@@ -54,7 +52,9 @@
                     <a href="#" class="hero-cta arrow">Ver el evento</a>
                 </div>
             </div>
-        </section>
+        </section>  
+        
+        
         <!-- Presentacion del chip M1 -->
         <section class="chip-section">
             <div class="container">
@@ -63,11 +63,11 @@
                 <p class="big-description">
                     Ya llegó el primer chip diseñado específicamente para la Mac. El sistema en chip (SoC) M1 de Apple tiene 16,000 millones de transistores e integra CPU, GPU, Neural Engine, E/S y mucho más en un diminuto chip. Por eso, te brinda un rendimiento increíble, tecnologías exclusivas y una eficiencia energética líder en la industria.1 El chip M1 es más que un paso adelante: es la entrada al futuro de la Mac.
                 </p>
-                <div class="video-container">
+                <div class="video-container center-x">
                     <video src="media/video/chip-m1.mp4" class="video center-x" autoplay muted></video>
                 </div>
             </div>
-        </section>
+        </section> 
 
         <div id="why-mac" class="grid-section">
             <section class="feature-panel cpu">
@@ -83,11 +83,9 @@
                 </div>
                 <img src="media/img/cpu.png" alt="Imagen de CPU" class="image">
             </section>
-        </div>
+        </div> 
         
-        <section id="Specifications" class="section-placeholder">
-            <h2>Especificaciones</h2>
-        </section>
     </main>
+    <script src="js/index.js" type="module"></script>
 </body>
 </html>
